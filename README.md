@@ -1,1 +1,0 @@
-# Static-Educational-Landing-Page

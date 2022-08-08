@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+}
+/* Image Based CSS Design Properties */
+.logo-image{
+    width:130px;
+    height:30px;
+    margin:15px 0px;
+    display: flex;
+    /* flex-direction:column; */
+}
+
+.background-image{
+    width:100vw;
+    height: auto;
+}
+/* Image Based CSS Design Properties */
+
+/* Navigational Bar Bassed CSS Design Properties */
+.nav-container{
+    border:1px solid #ccc;
+    background-color:rgb(33, 71, 119);
+    display:flex;
+    font-size: 1.5rem;
+    padding:20px;
+    /* flex-direction: row; */
+    /* justify-content:space-evenly; */
+    justify-content:flex-end;
+}
+
+.nav-item-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex:1 0 auto;
+    /* justify-content:space-evenly; */
+}
+
+.nav-item-list .item-list{
+    list-style-type: none;
+    padding:15px;
+    margin:0 15px;
+    text-align:center;
+}
+
+.nav-item-list li a{
+    color:white;
+}
+
+.nav-item-list li a:hover{
+    color:blueviolets;
+}
+/* Navigational Bar Bassed CSS Design Properties */
+
+
+/* Slideshow Content Bassed CSS Design Properties */
+.slideshow-content{
+    /* color: #fff; */
+    position:absolute;
+    top:400px;
+    left:320px;
+    font-size:24px;
+    font-weight:bolder;
+}
+
+.slideshow-content h1, h3, p{
+    color: white;
+}
+
+.slideshow-content button{
+    color: white;
+    background-color: rgb(45, 38, 148);
+    width:200px;
+    height:50px;
+    border-radius: 15px;
+    margin-top:20px;
+}
+
+/* Slideshow Content Bassed CSS Design Properties */
+
+
+/* Courses Content Bassed CSS Design Properties */
+.courses-list{
+    width:100%;
+    height:80%;
+    /* position:relative; */
+}
+
+.courses-list > h1{
+    color:blue;
+    font-size:3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.course-1-item{
+    width: 700px;
+    height: 300px;
+    border: 1.5px solid;
+    background:rgb(127, 155, 153);
+    position: absolute;
+    top:1250px;
+    left:320px;
+}
+
+.course-2-item{
+    width: 700px;
+    height: 300px;
+    border: 1.5px solid;
+    background:rgb(127, 155, 153);
+    position: absolute;
+    top:1650px;
+    left:320px;
+}
+
+.course-3-item{
+    width: 700px;
+    height: 300px;
+    border: 1.5px solid;
+    background:rgb(127, 155, 153);
+    position: absolute;
+    top:2040px;
+    left:320px;
+}
+
+.course-1-item p{
+    color:rgb(68, 58, 58);
+    font-size: 1.2rem;
+    position:absolute;
+    float: left;
+    top:90px;
+    left:340px;
+}
+
+.course-2-item p{
+    color:rgb(68, 58, 58);
+    font-size: 1.2rem;
+    position:absolute;
+    float: left;
+    top:90px;
+    left:340px;
+}
+
+.course-3-item p{
+    color:rgb(68, 58, 58);
+    font-size: 1.2rem;
+    position:absolute;
+    float: left;
+    top:110px;
+    left:340px;
+}
+
+.course-1-item  h2{
+    color:rgb(73, 55, 8);
+    position:absolute;
+    float: left;
+    top:40px;
+    left:350px;
+}
+
+.course-2-item  h2{
+    color:rgb(73, 55, 8);
+    position:absolute;
+    float: left;
+    top:40px;
+    left:360px;
+}
+
+.course-3-item  h2{
+    color:rgb(73, 55, 8);
+    position:absolute;
+    float: left;
+    top:40px;
+    left:340px;
+}
+
+
+.course-1-item img{
+    width:330px;
+    height:300px;
+    z-index:-1;
+}
+
+.course-2-item img{
+    width:330px;
+    height:300px;
+    z-index:-1;
+}
+
+.course-3-item img{
+    width:330px;
+    height:300px;
+    z-index:-1;
+}
+
+
+.course-1-item button{
+    width:150px;
+    height:50px;
+    border-radius:5px;
+    background-color:rgb(22, 22, 70);
+    color:white;
+    position: absolute;
+    top: 220px;
+    left:450px;
+}
+
+
+.course-2-item button{
+    width:150px;
+    height:50px;
+    border-radius:5px;
+    background-color:rgb(22, 22, 70);
+    color:white;
+    position: absolute;
+    top: 220px;
+    left:450px;
+}
+
+.course-3-item button{
+    width:150px;
+    height:50px;
+    border-radius:5px;
+    background-color:rgb(22, 22, 70);
+    color:white;
+    position: absolute;
+    top: 220px;
+    left:450px;
+}
+/* Courses Content Bassed CSS Design Properties */
+
+
+/* Footer Section Content Based CSS Design Properties */
+.footer-section{
+    position: absolute;
+    top:2450px;
+    border: 1.5px solid;
+    width: 100%;
+    height: 350px;
+    background-color: dimgray;
+}
+
+.page-about-content{
+    width:100%;
+    height:auto;
+    /* ss */
+}
+
+.page-about-content > h1{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-size:3rem;
+}
+
+.students-info{
+    width:400px;
+    height:200px;
+    border:1.5px solid transparent;
+    background-color:#ccc;
+    position:absolute;
+    top:120px;
+    left:30px;
+}
+
+.reviews-info{
+    width:400px;
+    height:200px;
+    border:1.5px solid transparent;
+    background-color:#ccc;
+    position:absolute;
+    top:120px;
+    left:480px;
+    /* float:right; */
+}
+
+.courses-info{
+    width:400px;
+    height:200px;
+    border:1.5px solid transparent;
+    background-color:#ccc;
+    position:absolute;
+    top:120px;
+    left:925px;
+    /* float: right; */
+}
+
+.students-info h3, h1{
+    color:darkslategrey;
+    font-size:46px;
+    text-align: center;
+    margin:25px 0px;
+}
+
+.reviews-info h3, h1{
+    color:darkslategrey;
+    font-size:46px;
+    text-align: center;
+    margin:25px 0px;
+}
+
+.courses-info h3, h1{
+    color:darkslategrey;
+    font-size:46px;
+    text-align: center;
+    margin:25px 0px;
+}
+
+/* Footer Section Content Based CSS Design Properties */
